@@ -1,0 +1,72 @@
+**********************************************
+Technosoft Motion Language Linker	Version 2.0
+**********************************************
+Sun Mar 10 14:14:28 2024
+
+
+OUTPUT FILE NAME:	<C:\Technosoft\ESM\Projects\Single_Axsis_4850_EC-I 52\indian5\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      3A16
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+415D      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     03B0      UPOS                          
+4000      _PROG_LOAD_ADDR               03B2      APOF                          
+4000      _PROG_RUN_ADDR                03B4      USPD                          
+03B2      APOF                          03B6      UACC                          
+03BD      CENTER                        03B8      UDGS                          
+400B      CONTINUEWITHENDINIT           03BA      USTP                          
+4037      FUNCTIONTABLE                 03BC      VER                           
+4082      GO_BACK                       03BD      CENTER                        
+40B3      GO_BACK_GTO                   03BE      SW1                           
+40D5      GO_BACK_GTOR                  03BF      SW2                           
+4119      GO_BACK_TO_180                03C0      MAXPOS                        
+409D      GTO                           03C2      REL                           
+40A5      GTO_MAIN                      03C4      LIMIT_CW                      
+40E3      GTON                          03C6      LIMIT_CCW                     
+40C3      GTOR                          03C8      POS                           
+40C9      GTOR_MAIN                     03CA      POS180                        
+410A      GTORN                         4000      _PROG_INI                     
+4058      GZR                           4000      _PROG_RUN_ADDR                
+4122      HOM                           400B      CONTINUEWITHENDINIT           
+4132      HOMZ                          400F      WAIT_VDC                      
+03C6      LIMIT_CCW                     4013      MAINSTARTADDRESS              
+03C4      LIMIT_CW                      4037      FUNCTIONTABLE                 
+4013      MAINSTARTADDRESS              4041      MCW                           
+03C0      MAXPOS                        404E      MCCW                          
+404E      MCCW                          4058      GZR                           
+4041      MCW                           4071      MOVE_CW                       
+40FF      MOVE_CCW                      4082      GO_BACK                       
+4071      MOVE_CW                       409D      GTO                           
+40F5      MOVE_CW_1                     40A5      GTO_MAIN                      
+4109      MOVE_TO                       40B3      GO_BACK_GTO                   
+03C8      POS                           40C3      GTOR                          
+03CA      POS180                        40C9      GTOR_MAIN                     
+03C2      REL                           40D5      GO_BACK_GTOR                  
+4152      SETNEG                        40E3      GTON                          
+4147      SETPOS                        40F5      MOVE_CW_1                     
+4147      START                         40FF      MOVE_CCW                      
+4152      STARTNEG                      4109      MOVE_TO                       
+4136      STP                           410A      GTORN                         
+03BE      SW1                           4119      GO_BACK_TO_180                
+03BF      SW2                           4122      HOM                           
+03B6      UACC                          4132      HOMZ                          
+03B8      UDGS                          4136      STP                           
+03B0      UPOS                          4147      START                         
+03B4      USPD                          4147      SETPOS                        
+03BA      USTP                          4152      STARTNEG                      
+03BC      VER                           4152      SETNEG                        
+400F      WAIT_VDC                      415D      _PROG_END_ADDR                
+
+[48 global symbols]

@@ -1,0 +1,48 @@
+**********************************************
+Technosoft Motion Language Linker	Version 2.0
+**********************************************
+Thu Mar 07 16:41:04 2024
+
+
+OUTPUT FILE NAME:	<C:\Technosoft\ESM\Projects\Jammer Rotator v1 -Depricated\TILT #2\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      3B5C
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+40D9      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     03B0      UPOS                          
+4000      _PROG_LOAD_ADDR               03B2      APOF                          
+4000      _PROG_RUN_ADDR                03B4      USPD                          
+03B2      APOF                          03B6      UACC                          
+03B8      CENTER                        03B8      CENTER                        
+03B9      CENTER_1                      03B9      CENTER_1                      
+400B      CONTINUEWITHENDINIT           4000      _PROG_INI                     
+4025      FUNCTIONTABLE                 4000      _PROG_RUN_ADDR                
+4078      GO_BACK                       400B      CONTINUEWITHENDINIT           
+4093      GO_BACK_R                     400F      WAIT_VDC                      
+40AF      GTO                           4013      MAINSTARTADDRESS              
+4047      GZR                           4025      FUNCTIONTABLE                 
+4013      MAINSTARTADDRESS              402F      MCW                           
+403B      MCCW                          403B      MCCW                          
+402F      MCW                           4047      GZR                           
+4052      MOVE_CW                       4052      MOVE_CW                       
+40C7      MOVE_CW1                      4065      MOVE_CW_R                     
+4065      MOVE_CW_R                     4078      GO_BACK                       
+40C2      TTT                           4093      GO_BACK_R                     
+03B6      UACC                          40AF      GTO                           
+03B0      UPOS                          40C2      TTT                           
+03B4      USPD                          40C7      MOVE_CW1                      
+400F      WAIT_VDC                      40D9      _PROG_END_ADDR                
+
+[24 global symbols]

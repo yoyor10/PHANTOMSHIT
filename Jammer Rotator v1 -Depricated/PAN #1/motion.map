@@ -1,0 +1,68 @@
+**********************************************
+Technosoft Motion Language Linker	Version 2.0
+**********************************************
+Mon Mar 04 09:36:30 2024
+
+
+OUTPUT FILE NAME:	<C:\Technosoft\ESM\Projects\Jammer Rotator v1 -Depricated\PAN #1\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      3B5C
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+418C      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     03B0      UPOS                          
+4000      _PROG_LOAD_ADDR               03B2      APOF                          
+4000      _PROG_RUN_ADDR                03B4      USPD                          
+03B2      APOF                          03B6      UACC                          
+03BA      CENTER                        03B8      SWITCH1                       
+400B      CONTINUEWITHENDINIT           03B9      SWITCH1W                      
+4025      FUNCTIONTABLE                 03BA      CENTER                        
+40A9      GO_BACK                       03BB      SW1                           
+4049      GO_BACK_                      03BC      SW2                           
+40E6      GO_BACK_GTO                   03BD      MAXPOS                        
+4115      GO_BACK_GTOR                  03BF      REL                           
+4177      GO_BACK_TO_180                03C1      LIMIT_CW                      
+4070      GO_BACK_W                     03C3      LIMIT_CCW                     
+40C5      GTO                           03C5      POS                           
+40CB      GTO_MAIN                      03C7      POS180                        
+4123      GTON                          4000      _PROG_INI                     
+40F4      GTOR                          4000      _PROG_RUN_ADDR                
+40FA      GTOR_MAIN                     400B      CONTINUEWITHENDINIT           
+4159      GTORN                         400F      WAIT_VDC                      
+407F      GZR                           4013      MAINSTARTADDRESS              
+03C3      LIMIT_CCW                     4025      FUNCTIONTABLE                 
+03C1      LIMIT_CW                      402F      MCW                           
+4013      MAINSTARTADDRESS              4039      RUN1                          
+03BD      MAXPOS                        4049      GO_BACK_                      
+4058      MCCW                          4058      MCCW                          
+402F      MCW                           4060      RUN1W                         
+413F      MOVE_CCW                      4070      GO_BACK_W                     
+4098      MOVE_CW                       407F      GZR                           
+4135      MOVE_CW_1                     4098      MOVE_CW                       
+4149      MOVE_TO                       40A9      GO_BACK                       
+03C5      POS                           40C5      GTO                           
+03C7      POS180                        40CB      GTO_MAIN                      
+03BF      REL                           40E6      GO_BACK_GTO                   
+4039      RUN1                          40F4      GTOR                          
+4060      RUN1W                         40FA      GTOR_MAIN                     
+03BB      SW1                           4115      GO_BACK_GTOR                  
+03BC      SW2                           4123      GTON                          
+03B8      SWITCH1                       4135      MOVE_CW_1                     
+03B9      SWITCH1W                      413F      MOVE_CCW                      
+03B6      UACC                          4149      MOVE_TO                       
+03B0      UPOS                          4159      GTORN                         
+03B4      USPD                          4177      GO_BACK_TO_180                
+400F      WAIT_VDC                      418C      _PROG_END_ADDR                
+
+[44 global symbols]
